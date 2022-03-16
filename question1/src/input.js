@@ -8,7 +8,7 @@ function Input() {
     setValue(e.target.value);
   };
 
-  const handleAdd = (e) => {
+  const handleAdd = () => {
     const newTodo = [...todo, value];
     setTodo(newTodo);
     setValue("");
